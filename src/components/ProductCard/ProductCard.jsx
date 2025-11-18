@@ -49,10 +49,10 @@ const ProductCard = ({ title, productItem }) => {
           >
             <ion-icon name="add"></ion-icon>
           </button>
-          <div>
-            
-          </div>
         </div>
+         <div>
+            {productItem.availabilityStatus}
+          </div>
       </div>
     </Col>
   );
